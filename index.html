@@ -1,414 +1,657 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:og="http://ogp.me/ns#">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Home | Flat Theme</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->       
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-</head><!--/head-->
-<body>
-    <header class="navbar navbar-inverse navbar-fixed-top wet-asphalt" role="banner">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="icon-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="career.html">Career</a></li>
-                            <li><a href="blog-item.html">Blog Single</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="404.html">404</a></li>
-                            <li><a href="registration.html">Registration</a></li>
-                            <li class="divider"></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
-                            <li><a href="terms.html">Terms of Use</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="contact-us.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header><!--/header-->
-    <section id="main-slider" class="no-margin">
-        <div class="carousel slide wet-asphalt">
-            <ol class="carousel-indicators">
-                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
-                <li data-target="#main-slider" data-slide-to="1"></li>
-                <li data-target="#main-slider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Madhavi</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="carousel-content center centered">
-                                    <h2 class="boxed animation animated-item-1">Clean, Crisp, Powerful and Responsive Web Design</h2>
-                                    <p class="boxed animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                                    <br>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content centered">
-                                    <h2 class="animation animated-item-1">Powerful and Responsive Web Design Theme</h2>
-                                    <p class="animation animated-item-2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames</p>
-                                    <a class="btn btn-md animation animated-item-3" href="#">Learn More</a>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="centered">
-                                    <div class="embed-container">
-                                        <iframe src="//player.vimeo.com/video/69421653?title=0&amp;byline=0&amp;portrait=0&amp;color=a22c2f" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/.item-->
-            </div><!--/.carousel-inner-->
-        </div><!--/.carousel-->
-        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
-            <i class="icon-angle-left"></i>
-        </a>
-        <a class="next hidden-xs" href="#main-slider" data-slide="next">
-            <i class="icon-angle-right"></i>
-        </a>
-    </section><!--/#main-slider-->
+<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link rel="preconnect" crossorigin href="//images.indianexpress.com/" /><link rel="preconnect" crossorigin href="//www.googletagservices.com/" /><link rel="preconnect" crossorigin href="//tpc.googlesyndication.com/" /><link rel="preconnect" crossorigin href="//adservice.google.com/" /><link rel="preconnect" crossorigin href="//www.google.com/" /><link rel="preconnect" crossorigin href="//googleads.g.doubleclick.net/" /><link rel="preconnect" crossorigin href="//ads.pubmatic.com/" /><link rel="preconnect" crossorigin href="//www.google-analytics.com/" /><link rel="preconnect" crossorigin href="//securepubads.g.doubleclick.net" /><link rel="preconnect" crossorigin href="//fonts.gstatic.com/" />			<title>Yahoo: News, Photos, Latest News Headlines about Yahoo - The Indian Express</title><meta name="description" content="Yahoo Latest breaking news, pictures, photos and Video News. Find Yahoo news headlines, photos, videos, comments, blog posts and opinion at The Indian Express." /><meta name="keywords" content="Yahoo Latest News, Yahoo today News, Yahoo Breaking News, Yahoo photos, Yahoo Videos, Yahoo Picture gallery, Yahoo Photo Gallery, Yahoo news update" />	<script type="text/worker" id="iepwa">onmessage=function(e){var o=new Request(e.data,{mode:"no-cors",redirect:"follow"});fetch(o)};</script>
+	<script type="text/javascript">var x = new Worker("data:text/javascript;base64," + btoa(document.getElementById("iepwa").textContent));</script>
+	<meta name='robots' content='max-image-preview:large' />
+<!-- Jetpack Site Verification Tags -->
+<meta name="google-site-verification" content="UzbS4ghT-l3F85eDiPbzEUeeKcvrnrGCgvsNHCRgvIc" />
+<meta name="msvalidate.01" content="CCA9DA5B985004F4462DA743E776C636" />
+<style>@font-face{font-family:'Droid Serif';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/droidserif/v19/tDbI2oqRg1oM3QBjjcaDkOr9rAXWGQyH.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Droid Serif';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/droidserif/v19/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwGtT0rU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKKTU1Kvnz.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:400;font-display:swap;src:local('Roboto'),local('Roboto-Regular'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4AMP6lbBP.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4AMP6lbBP.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:Roboto;font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Bold'),local('Roboto-Bold'),local('sans-serif'),url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4AMP6lQ.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DQk6YvNkeg.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DQk6YvNkeg.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:400;font-display:swap;src:local('Roboto Condensed'),local('RobotoCondensed-Regular'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQk6YvM.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCkYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCAYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCgYb9lecyVC4A.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCcYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCsYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCoYb9lecyVC4A.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Roboto Condensed';font-style:normal;font-weight:700;font-display:swap;src:local('Roboto Condensed Bold'),local('RobotoCondensed-Bold'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v25/ieVi2ZhZI2eCN5jzbjEETS9weq8-32meGCQYb9lecyU.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}</style><link rel='stylesheet' id='all-css-0' href='https://indianexpress.com/_static/??-eJylktFuwyAMRX9oBNGpjfYw7VsQ3CbewKBAmubv53SblEmbVNQXJIPPMdjoJSuXuIKrriMiiib2ZBnXPKEUXeoaoHFRiF0k7lwpT/puaIJLMYI9vFrID6iqUVJGO6EFGGE9JsVYmspQhfpC78MiuSltVNGHkzJGu80VyH2oW/6jlmZe4py40AU/T9rWxzXngKvcaN8YYhdmL8nvgkJECCIV+T7Iwa4yh4DBuvXX1/kXl7N93PrfzinVP8YXZ5XDPBBLQdRsZULGdP2t1d8bG/MWX82pf37pD6Y/fgJUsyui' type='text/css' media='all' />
+<script src='https://indianexpress.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://indianexpress.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script async="async" src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' id='ie-google-ad-gpt-js-js'></script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/jquery.bxslider.min.js?ver=04072017.2" data-inline="1" id="bx-slider-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/min/ie-tracking.js?ver=24032020.1" data-inline="1" id="ie-separate-traking-script-js"></script><script src='https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/slick.min.js?ver=17092019.1' id='ie-slick-min-scripts-js-js'></script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/microsites/responsive/js/min/custom-new.js?ver=22092022.1" data-inline="1" id="responsive-custom-new.js-js"></script><script type="text/iescript" src="https://rtbcdn.andbeyond.media/prod-global-324113.js?ver=1.4" data-inline="1" id="ie_automated_axt_js-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/min/ie-gdpr-ad-code.js?ver=26112019.1" data-inline="1" id="ie-gdpr-ad-code-js-js"></script><script id='about-loadmore-js-extra'>
+var ajax_object = {"ajaxurl":"https:\/\/indianexpress.com\/wp-admin\/admin-ajax.php"};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/min/aboutTag.js?ver=27102020.1" data-inline="1" id="about-loadmore-js"></script><script id='ev-event-api-integration-js-extra'>
+var eveventdata = {"source":"1","channel":"2","type":"1","storyId":"","eventName":"datawall","eventType":"widget_appear","extraInfo1":"exhausted_monthly_limit","extraInfo2":"","extraInfo3":""};
+</script>
+<script src='https://indianexpress.com/wp-content/themes/indianexpress/js/evolok/ev-event-api-integration.js?ver=06092022.6' id='ev-event-api-integration-js'></script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/modernizr.custom.71422.js?ver=6.0.3" data-inline="1" id="modernizr.custom.71422-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/jquery.flexslider-min.js?ver=2.2" data-inline="1" id="jquery.flexslider-min-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/jquery.cycle2.js?ver=2.2" data-inline="1" id="jquery.cycle2-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/jquery.cycle2.carousel.min.js?ver=2.2" data-inline="1" id="jquery.cycle2.carousel.min-js"></script><script id='ie-taboola-header-script-js-extra'>
+var taboolaHeaderExports = {"category":"auto","tracking":"utm_source=Taboola_Recirculation&utm_medium=RC&utm_campaign=IE"};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/taboola-header.js?ver=15102019.1" data-inline="1" id="ie-taboola-header-script-js"></script><script src='https://indianexpress.com/wp-content/themes/indianexpress/js/ie-moengage-sdk.js?ver=2022.07.10.1' id='ie-moengage-sdk-min-js-js'></script>
+<link rel="https://api.w.org/" href="https://indianexpress.com/wp-json/" /><link rel="alternate" type="application/json" href="https://indianexpress.com/wp-json/wp/v2/tags/444" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://indianexpress.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://indianexpress.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0.3" />
+	<style>img#wpstats{display:none}</style>
+		<meta name="parsely-title" content="Tagged - Yahoo" />
+<meta name="parsely-link" content="http://indianexpress.com/about/yahoo/" />
+<meta name="parsely-type" content="index" />
+			<meta property="fb:pages" content="163648403825" />
+							<meta property="ia:markup_url_dev" content="https://indianexpress.com/article/technology/tech-news-technology/yahoo-mail-app-redesign-to-help-you-make-sense-of-your-inbox-8204068/?ia_markup=1" />
+				<script type="application/ld+json">
+	{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https:\/\/indianexpress.com\/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https:\/\/indianexpress.com\/about\/","name":"About"}}]}</script>
+<script>
+				!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='https://static.ads-twitter.com/uwt.js',a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+				twq('config','oc555');
+			</script><meta property="fb:pages" content="163648403825" /><meta property="fb:pages" content="168619349359" /><meta property="fb:pages" content="185763818464532" /><meta property="fb:pages" content="1494497934210205" /><meta property="fb:pages" content="1774784956154724" /><meta property="fb:pages" content="1567211863297748" /><meta property="fb:pages" content="291465928041678" /><meta property="fb:pages" content="339520043138547" /><meta property="fb:pages" content="376556412852346" /><meta property="fb:pages" content="215732349153100" /><meta property="og:type" content="website" /><meta property="og:url" content="https://indianexpress.com/about/yahoo/" /><meta property="og:site_name" content="The Indian Express" /><meta property="og:locale" content="en_US" /><meta property="og:title" content="Yahoo" /><meta property="og:description" content="Yahoo Latest breaking news, pictures, photos and Video News. Find Yahoo news headlines, photos, videos, comments, blog posts and opinion at The Indian Express." /><meta property="og:image" content="https://indianexpress.com/wp-content/themes/indianexpress/images/IE-OGimage.jpg" /><meta property="og:image:type" content="image/jpeg" /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="667" /><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="The Indian Express"><meta name="twitter:creator" content="@indianexpress" /><meta name="twitter:url" content="https://indianexpress.com/about/yahoo/"><meta name="twitter:title" content="Yahoo"><meta name="twitter:description" content="Yahoo Latest breaking news, pictures, photos and Video News. Find Yahoo news headlines, photos, videos, comments, blog posts and opinion at The Indian Express."><meta property="twitter:image" content="https://indianexpress.com/wp-content/themes/indianexpress/images/IE-OGimage.jpg" /><meta property="twitter:image:type" content="image/jpeg" /><meta property="twitter:image:width" content="1200" /><meta property="twitter:image:height" content="667" /><meta itemprop="inLanguage" content="en" /><meta itemprop="name" content="Yahoo"><meta itemprop="mainEntityOfPage" content="https://indianexpress.com/about/yahoo/" /><meta itemprop="url" content="https://indianexpress.com/about/yahoo/" /><meta itemprop="headline" content="Yahoo" /><meta itemprop="description" content="Yahoo Latest breaking news, pictures, photos and Video News. Find Yahoo news headlines, photos, videos, comments, blog posts and opinion at The Indian Express." /><script type="application/ld+json">{
+		"@context":"http://schema.org/",
+		"@type":"ViewAction",
+		"target":{
+			"type":"EntryPoint",
+			"urlTemplate":"https://indexpress.page.link/shareDL"
+		}
+	}</script><link rel="amphtml" href="https://indianexpress.com/about/yahoo/lite/" /><meta name="ahrefs-site-verification" content="00120a3a212c33eda15559fea6d0731769fd82f538180bd0a2dbe12991312ab4"><meta name="majestic-site-verification" content="MJ12_ad7db024-a46c-482a-bb2f-e1ae09432a65">
+<meta name="robots" content="index, follow" /><link rel="canonical" href="https://indianexpress.com/about/yahoo/" /><link rel="icon" href="https://images.indianexpress.com/2018/10/fav-icon.png?resize=96,96" sizes="32x32" />
+<link rel="icon" href="https://images.indianexpress.com/2018/10/fav-icon.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://images.indianexpress.com/2018/10/fav-icon.png" />
+<meta name="msapplication-TileImage" content="https://images.indianexpress.com/2018/10/fav-icon.png" />
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"SiteNavigationElement","name":["Home","Explained","Political Pulse","India","Cities","Opinion","Entertainment","Lifestyle","Technology","Videos","Sports","Audio","Education","Premium"],"url":["\/","https:\/\/indianexpress.com\/section\/explained\/","https:\/\/indianexpress.com\/section\/political-pulse\/","https:\/\/indianexpress.com\/section\/india\/","https:\/\/indianexpress.com\/section\/cities\/","https:\/\/indianexpress.com\/section\/opinion\/","https:\/\/indianexpress.com\/section\/entertainment\/","https:\/\/indianexpress.com\/section\/lifestyle\/","\/section\/technology\/","\/videos\/","https:\/\/indianexpress.com\/section\/sports\/","\/audio\/","https:\/\/indianexpress.com\/section\/education\/","\/about\/express-premium\/"]}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebSite","url":"https:\/\/indianexpress.com","name":"The Indian Express","potentialAction":{"@type":"SearchAction","target":"https:\/\/indianexpress.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Organization","name":"The Indian Express","url":"https:\/\/indianexpress.com","logo":"https:\/\/images.indianexpress.com\/2019\/11\/ienewlogo3_new.png","address":{"@type":"PostalAddress","streetAddress":"B-1\/B, Sector-10","addressLocality":"Noida","addressRegion":"India","postalCode":"201301","Telephone":"+91-0120-25 0049"},"sameAs":["https:\/\/www.facebook.com\/indianexpress","https:\/\/twitter.com\/indianexpress","https:\/\/www.youtube.com\/IndianExpress"]}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"WebPage","inLanguage":"en","name":"Yahoo : News, Photos, Latest News Headlines about Yahoo","description":"Yahoo Latest breaking news, pictures, photos and Video News. Find Yahoo news headlines, photos, videos, comments, blog posts and opinion at The Indian Express.","url":"https:\/\/indianexpress.com\/about\/yahoo\/","publisher":{"@type":"Organization","name":"The Indian Express","logo":{"@type":"ImageObject","url":"https:\/\/images.indianexpress.com\/2019\/11\/ienewlogo3_new.png","width":"600","height":"60"}}}</script>		<script type='text/javascript'>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-1403607-3', 'auto');
+			 ga('set', 'dimension1', 'About');  ga('set', 'dimension4', 'About Page'); 		</script>
+						<!-- Begin comScore Tag -->
+		<script>
+			var _comscore = _comscore || [];
+			_comscore.push( { c1: "2", c2: "8738137" } );
+			( function() {
+				var s = document.createElement("script"), el = document.getElementsByTagName( "script" )[0];
+				s.async = true;
+				s.src = ( document.location.protocol === "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+				el.parentNode.insertBefore( s, el );
+			})();
+		</script>
+		<noscript><img src='https://sb.scorecardresearch.com/p?c1=2&c2=8738137&cv=2.0&cj=1' alt='scorecardresearch' /></noscript>
+		<!-- End comScore Tag -->
+			<!-- Microsoft clarity code -->
+	<script type="text/javascript">
+		(function(c,l,a,r,i,t,y){
+			c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+			t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+			y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+		})(window, document, "clarity", "script", "9unn02nf3n");
+	</script>
+<!-- Global site tag (gtag.js) - Google Ads: 356047812 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-356047812"></script><script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'AW-356047812');
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '444470064056909');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=444470064056909&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+	<body class="archive tag tag-yahoo tag-444">
+	<div id="wrapper">
+	
+		<header class="ie-header">
+			<!-- Top Header Links -->
+			<div class="t-headlink">
+				<div class="section_nav">
+					<button class="hamburger_btn toggle-menu" aria-expanded="false" aria-label="Hamburger">
+						<span></span>
+						<i>Sections</i>
+					</button>
+					<div class="toggle-close">
+						<span class="hamburger-menu-close"></span>
+					</div>
+					<div class="topsocial"><button aria-label="search" class="searchbxbrn"><i class="ie-spyglass"></i></button>
+						<div class="search-form-full">
+							<div class="search-holder">
+								<div class="closebtn2"><i class="fa-closebtn"></i></div>
+																	<form role="search" method="get" id="searchform" class="searchform" action="https://cse.google.com/cse" target="_blank">
+										<div>
+											<label class="screen-reader-text" for="s">Search for:</label>
+											<input type="hidden" value="e1a7e63ac59ae4a39" name="cx" id="search">
+											<input type="text" value="" name="q" id="search">
+											<input type="submit" id="searchsubmit" value="Search">
+										</div>
+									</form><span id="searcherr"></span>
+																<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="t-headlink__epaper">
+					<ul class="t-headlink__brand">
+						<li class="active "><a class="" id="IE_TOP_VERNACULAR_ENGLISH" href="https://indianexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'English' );">English</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_TAMIL" href="https://tamil.indianexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'தமிழ்' );">தமிழ்</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_BANGLA" href="https://bengali.indianexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'বাংলা' );">বাংলা</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_MALAYALAM" href="https://malayalam.indianexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'മലയാളം' );">മലയാളം</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_GUJARATI" href="https://gujarati.indianexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'ગુજરાતી' );">ગુજરાતી</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_HINDI" href="https://www.jansatta.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'हिंदी' );">हिंदी</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_MARATHI" href="https://www.loksatta.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'मराठी' );">मराठी</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_BUSINESS_E" href="https://www.financialexpress.com/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'Business' );">Business</a></li><li class=""><a class="" id="IE_TOP_VERNACULAR_BUSINESS_H" href="https://www.financialexpress.com/hindi/" target="_blank" rel="noopener" onclick="ga( 'send', 'event', 'Header Desktop', 'Other Sites', 'बिज़नेस' );">बिज़नेस</a></li>					</ul>		
+							
+				</div>
+				<div class="t-headlink__social">
+					<div class="t-headlink-subbx">
+						<div class="t-headlink__colm newletter_section">
+						<a href="https://indianexpress.com/newsletters/" class="newletter" target="_blank" rel="noopener">Newsletters <i><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" width="15" height="15" baseProfile="tiny" id="Layer_1" x="0px" y="0px" viewBox="0 0 256 235" xml:space="preserve"><path d="M250,107.6v-0.3l-19.4-34.1v47.1l-12.2,8V7.2H37.1V128l-12.2-8V73.2L5.5,107.3v122.5H128h122.5V107.3L250,107.6z M48.8,18.9        h157.9v117.1L128,187.7l-79.2-52V18.9z M94.7,65H68.8V39.1h25.9V65z M187.3,65h-79.8V47.6h79.8V65z M187.3,97.4H68.8V80h118.5V97.4z         M187.3,129.9H68.8v-17.4h118.5V129.9z" fill="#767676"/></svg></i></a>						</div>
+						<div class="t-headlink__colm">
+							<ul class="t-headlink__sslink">
+								<li><a href="https://www.facebook.com/indianexpress" target="_blank" onclick="ga( 'send', 'event', 'Header Desktop', 'Social Icons',  ' Facebook ' );"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/facebook-icon.svg" alt="Facebook" width="20" height="20"></a></li><li><a href="https://twitter.com/IndianExpress" target="_blank" onclick="ga( 'send', 'event', 'Header Desktop', 'Social Icons',  ' Twitter ' );"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/twitter-icon.svg" alt="Twitter" width="20" height="20"></a></li><li><a href="https://www.youtube.com/channel/UCJEDFSxHHOW1PpBccdSxOTA" target="_blank" onclick="ga( 'send', 'event', 'Header Desktop', 'Social Icons',  ' Youtube ' );"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/youtube-icon.svg" alt="Youtube" width="20" height="20"></a></li><li><a href="https://www.instagram.com/indianexpress/" target="_blank" onclick="ga( 'send', 'event', 'Header Desktop', 'Social Icons',  ' Instagram ' );"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/IE-insta-grey.svg" alt="Instagram" width="20" height="20"></a></li>							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- // Top Header Links -->
 
-    <section id="services" class="emerald">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-twitter icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Twitter Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-facebook icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Facebook Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-                <div class="col-md-4 col-sm-6">
-                    <div class="media">
-                        <div class="pull-left">
-                            <i class="icon-google-plus icon-md"></i>
-                        </div>
-                        <div class="media-body">
-                            <h3 class="media-heading">Google Plus Marketing</h3>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
-                        </div>
-                    </div>
-                </div><!--/.col-md-4-->
-            </div>
-        </div>
-    </section><!--/#services-->
+			<!-- Header with Logo -->
+			<div class="main-header">
+			<div class="epaper-sec">
+					<div class="epaper-date">Wednesday, Jan 18, 2023</div>
+					<ul class="logo-label-menu">
+						<li><a href="/subscribe/" onclick='ga("send", "event", "Header Desktop", "Others", "ePaper")'> ePaper </a></li>
+						<li><a href="/todays-paper/" onclick='ga("send", "event", "Header Desktop", "Others", "Today’s Paper")'> Today’s Paper </a></li>		
+					</ul>				 
+				</div>
+				<div class="main-header__logo">
+					<div class="ie-logos">
+						<a href="/" title="The Indian Express" onclick='ga("send", "event", "Header Desktop", "Others", "Logo" )'>
+														<img src="https://indianexpress.com/wp-content/themes/indianexpress/images/indian-express-logo-n.svg" title="The Indian Express" alt="The Indian Express" class="-logo" width="400" height="40">
+														</a>
+					</div>
+					<div class="journalism-sec">Journalism of Courage</div>
+				</div>
+				<div class="main-header__inpromo">
+				<div class="promo-top-slug-ad"><div id="gpt_ad_IE_ROS_PROMO_SLUG_DESK" class="ad-slot "></div></div>				</div>
+			</div>
+			<!-- // Header with Logo -->
+			<nav id="fixednavbar" >
+				<div class="mainnav">
+					<ul id="navbar">
+						<li class=" " id=""><a href="/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Home' )">Home</a></li><li class=" " id=""><a href="https://indianexpress.com/section/explained/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Explained' )">Explained</a></li><li class=" " id=""><a href="https://indianexpress.com/section/political-pulse/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Political Pulse' )">Political Pulse</a></li><li class="menuhide " id=""><a href="https://indianexpress.com/section/india/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'India' )">India</a></li><li class=" " id=""><a href="https://indianexpress.com/section/cities/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Cities' )">Cities</a></li><li class=" " id=""><a href="https://indianexpress.com/section/opinion/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Opinion' )">Opinion</a></li><li class=" " id=""><a href="https://indianexpress.com/section/entertainment/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Entertainment' )">Entertainment</a></li><li class=" " id=""><a href="https://indianexpress.com/section/lifestyle/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Lifestyle' )">Lifestyle</a></li><li class=" " id=""><a href="/section/technology/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Technology' )">Technology</a></li><li class="menuhide " id=""><a href="/videos/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Videos' )">Videos</a></li><li class=" " id=""><a href="https://indianexpress.com/section/sports/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Sports' )">Sports</a></li><li class="menuhide " id=""><a href="/audio/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Audio' )">Audio</a></li><li class="menuhide " id=""><a href="https://indianexpress.com/section/education/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Education' )">Education</a></li><li class=" " id=""><a href="/about/express-premium/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Open Nav', 'Premium' )">Premium</a></li>					</ul>
+					<div class="row sub">
+						<div class="t-headlink__colm">
+							<a id="evnav_subscribe_ham" href="/subscribe/?ref=sub_topHeader" class="m-subscribe tnav__link epaperlink show-subscribebtn"><span class="tnav-txt t-headlink__sub-btn">Subscribe</span></a>						</div>
+						<div class="t-headlink__colm"><a href="/login/" id="evnav_login_ham" class="evnav_login_ham evham_signout t-headlink__signin">Sign In</a></div>
+					</div>
+				</div>
+				<!-- <div class="toggle-menu"><a href="javascript:void(0);" class="hamburger-menu"></a></div> -->
+			</nav>
+			<!-- Trending Topic -->
+			<div class="s-level-menu"><div class="s-level-menu__inner"><ul id="menu-header-sub-menu" class="s-level-menu-item"><li class="menu-red"><span>Trending</span></li><li class="" id=""><a href="https://indianexpress.com/puzzles-and-games/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'Daily Crossword' )">Daily Crossword</a></li><li class="highlightBg-red" id=""><a href="https://indianexpress.com/subscribe/digital_2/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'New Year Offer' )">New Year Offer</a></li><li class="" id=""><a href="https://indianexpress.com/section/lifestyle/health-specials/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'Health Specials' )">Health Specials</a></li><li class="" id=""><a href="https://indianexpress.com/section/entertainment/movie-review/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'Movie Reviews' )">Movie Reviews</a></li><li class="" id=""><a href="https://indianexpress.com/section/horoscope/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'Daily Horoscope' )">Daily Horoscope</a></li><li class="" id=""><a href="https://indianexpress.com/section/upsc-current-affairs/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'UPSC Special' )">UPSC Special</a></li><li class="" id=""><a href="https://indianexpress.com/about/ranji-trophy/" class="" id="" onclick="ga( 'send', 'event', 'Header Desktop', 'Trending', 'Ranji Trophy' )">Ranji Trophy</a></li></ul></div></div>			<!-- // Trending Topic -->
+		</header>
+		<div class="overlay-header"></div>
+					<!-- Ads container 970x90 -->
+						<div class="container-header">
+					<div class="adsbox970x90" style="height:250px;overflow:hidden"><div id="gpt_ad_IE_ROS_ATF_728X90" class="ad-slot "></div></div>								</div>
+				
 
-    <section id="recent-works">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h3>Our Latest Project</h3>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    <div class="btn-group">
-                        <a class="btn btn-danger" href="#scroller" data-slide="prev"><i class="icon-angle-left"></i></a>
-                        <a class="btn btn-danger" href="#scroller" data-slide="next"><i class="icon-angle-right"></i></a>
-                    </div>
-                    <p class="gap"></p>
-                </div>
-                <div class="col-md-9">
-                    <div id="scroller" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div><!--/.row-->
-                            </div><!--/.item-->
-                            <div class="item">
-                                <div class="row">
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                                                <h5>
-                                                    Flat Theme - Business Theme
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                                                <h5>
-                                                    Nova - Corporate site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>                            
-                                    <div class="col-xs-4">
-                                        <div class="portfolio-item">
-                                            <div class="item-inner">
-                                                <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                                                <h5>
-                                                    Fornax - Apps site template
-                                                </h5>
-                                                <div class="overlay">
-                                                    <a class="preview btn btn-danger" title="Malesuada fames ac turpis egestas" href="images/portfolio/full/item1.jpg" rel="prettyPhoto"><i class="icon-eye-open"></i></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!--/.item-->
-                        </div>
-                    </div>
-                </div>
-            </div><!--/.row-->
-        </div>
-    </section><!--/#recent-works-->
+				<div class="add-left">
+			<div id="gpt_ad_IE_ROS_LEFT_GUTTER" class="ad-slot "></div>		</div>
+		<div class="add-right">
+			<div id="gpt_ad_IE_ROS_RIGHT_GUTTER" class="ad-slot "></div>		</div>
+		<script>
+		if (window.innerWidth) //if browser supports window.innerWidth
+		var page_w=window.innerWidth;
+		else if (document.all) //else if browser supports document.all (IE 4+)
+		var page_w=document.body.clientWidth;
+		//var page_w=screen.width;
+		if( page_w > 1024 ) {
+			jQuery(".add-left,.add-right").show();
+		}else{
+			jQuery(".add-left,.add-right").hide();
+		}
+	</script>
+					<div id="section">
+	<div class="container">
+				<div class="row">
+			<div class="leftpanel">
+				<div class="top-section">
+						<nav aria-label="Breadcrumb" class="ie-breadcrumb">
+		<ol class="m-breadcrumb">
+			<li><a href="https://indianexpress.com/">Home</a></li><li><a href="https://indianexpress.com/about/">About</a></li><li><span>Yahoo</span></li>		</ol>
+	</nav>
+						<h1>Yahoo</h1>
+					<div class="mainbox election-main state-col">
+										</div>
+					<div class="tag-desc"></div>
+				</div>
+				<div class="social-icons icons-about">
+					<div class="append_social_share">
+						
+<div class="m-story-meta__share-actions hide_utm_paytm">
 
-    <section id="testimonial" class="alizarin">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center">
-                        <h2>What our clients say</h2>
-                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    </div>
-                    <div class="gap"></div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="col-md-6">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--/#testimonial-->
+	
+		<ul class="custom-share">
 
-    <section id="bottom" class="wet-asphalt">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <h4>About Us</h4>
-                    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                    <p>Pellentesque habitant morbi tristique senectus.</p>
-                </div><!--/.col-md-3-->
+			<li class="facebook">
+				<a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Findianexpress.com%2Fabout%2Fyahoo%2F" target="_blank" rel="nofollow" class="a-share-btn" title="Facebook" data-social-sharing-facebook="" onclick="ga( 'send', 'event', 'Facebook', 'click', 'https://indianexpress.com/about/yahoo/' );">
+					<i class="fb"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/facebook.svg" alt="" height="26" width="14" ></i>
+				</a>
+			</li>
+			<li class="twit">
+				<a href="https://twitter.com/share?url=&#038;text=Yahoo&#038;via=IndianExpress" target="_blank" rel="nofollow" class="a-share-btn" title="Twitter" data-social-sharing-twitter="" onclick="ga( 'send', 'event', 'Twitter', 'click', 'https://indianexpress.com/about/yahoo/' );">
+					<i class="twit"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/twitter.svg" alt="" height="24" width="26" ></i>
+				</a>
+			</li>
+						<li class="reddit">
+				<a href="https://www.reddit.com/submit?url=https%3A%2F%2Findianexpress.com%2Fabout%2Fyahoo%2F&#038;title=Yahoo" rel="nofollow" class="a-share-btn" target="_blank" title="Reddit" data-social-sharing-reddit="" onclick="ga( 'send', 'event', 'Reddit', 'click', 'https://indianexpress.com/about/yahoo/' );">
+					<i class="reddit"><img src="https://indianexpress.com/wp-content/themes/indianexpress/images/reddit.svg" height="24" width="26" alt=""></i>
+				</a>
+			</li>
+					</ul>
+	
+</div>
+					</div>
+				</div>
+								<div class="search-tabs">
+					<div class="listing">
+						<ul>
+														<li class="current">
+								<a href="#AboutNews" class="scrollLink">News</a>
+							</li>
+																																		</ul>
+					</div>
+				</div>
+				<div class="search-result" id="AboutNews">
+					<input type="hidden" name="tag_id" id="tag_id" value='444'>
+					<input type="hidden" id="load-tag-data-ajax-nonce" name="load-tag-data-ajax-nonce" value="e34c2e3c95" />					<div id="tag_article">
+						<h2 class="listing-title">YAHOO NEWS</h2>		<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-mail-app-redesign-to-help-you-make-sense-of-your-inbox-8204068/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yahoo Mail" loading="lazy" srcset="https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=450,250 450w, https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=600,334 600w, https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=768,427 768w, https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=728,405 728w, https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg?resize=150,83 150w, https://images.indianexpress.com/2022/10/YahooMail_NEW_1.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-mail-app-redesign-to-help-you-make-sense-of-your-inbox-8204068/" title="Yahoo Mail app gets a redesign to help you make sense of your Inbox">Yahoo Mail app gets a redesign to help you make sense of your Inbox</a></h3><p>October 12, 2022 1:43 pm</p><p>Yahoo is redesigning its Mail app for Android and iOS users. The new inbox comes with contextual filters and the ability to see all purchases in one place. </p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/techook/yahoo-year-in-review-2021-here-is-what-india-searched-for-this-year-7652910/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yahoo, Yahoo Year in Review 2021, Yahoo India, Yahoo search trends, Yahoo trends, Most popular personalities, 2021 in a glance, Yahoo news" loading="lazy" srcset="https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=450,250 450w, https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=600,334 600w, https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=768,427 768w, https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=728,405 728w, https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg?resize=150,83 150w, https://images.indianexpress.com/2017/04/germany-yahoo-12001.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/techook/yahoo-year-in-review-2021-here-is-what-india-searched-for-this-year-7652910/" title="Yahoo Year in Review 2021: Modi to Virat Kohli to Sidharth Shukla, here&#039;s what India searched for">Yahoo Year in Review 2021: Modi to Virat Kohli to Sidharth Shukla, here&#039;s what India searched for</a></h3><p>December 03, 2021 9:28 am</p><p>Yahoo has announced its 2021 Year in Review for India which analysed search trends to reveal what Indian users searched for this year.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/world/yahoo-china-challenging-environment-7604685/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=450,250 450w, https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=600,334 600w, https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=768,427 768w, https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=728,405 728w, https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg?resize=150,83 150w, https://images.indianexpress.com/2021/11/be314d904f8045d5bdbf793f688600cd-be314d904f8045d5bdbf793f688600cd-e7838e2fbb9845fca266ffa00cda6e1c.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/world/yahoo-china-challenging-environment-7604685/" title="Yahoo pulls out of China, citing &#039;challenging&#039; environment">Yahoo pulls out of China, citing &#039;challenging&#039; environment</a></h3><p>November 02, 2021 7:48 pm</p><p>Yahoo was lambasted by lawmakers in the US in 2007 after it handed over data on two Chinese dissidents to Beijing, eventually leading to their imprisonment.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/world/yahoo-names-tinder-top-boss-as-ceo-7501625/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yahoo, Tinder, Yahoo new CEO, Yahoo CEO, Jim Lanzone, Apollo Global Management, Verizon Communications, indian express, indian express news, current affairs world news" loading="lazy" srcset="https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=450,250 450w, https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=600,334 600w, https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=768,427 768w, https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=728,405 728w, https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg?resize=150,83 150w, https://images.indianexpress.com/2021/09/Yahoo-CEO.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/world/yahoo-names-tinder-top-boss-as-ceo-7501625/" title="Yahoo names Tinder top boss as CEO">Yahoo names Tinder top boss as CEO</a></h3><p>September 10, 2021 10:23 pm</p><p>Jim Lanzone replaces Guru Gowrappan, who led Verizon&#039;s media business since 2018 and has now been named senior adviser to Apollo&#039;s private equity business. </p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/business/companies/verizon-selling-yahoo-aol-unit-to-apollo-in-usd-5b-deal-7300629/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2021/05/veri22.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Verizon" loading="lazy" srcset="https://images.indianexpress.com/2021/05/veri22.jpg?resize=450,250 450w, https://images.indianexpress.com/2021/05/veri22.jpg?resize=600,334 600w, https://images.indianexpress.com/2021/05/veri22.jpg?resize=768,427 768w, https://images.indianexpress.com/2021/05/veri22.jpg?resize=728,405 728w, https://images.indianexpress.com/2021/05/veri22.jpg?resize=150,83 150w, https://images.indianexpress.com/2021/05/veri22.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/business/companies/verizon-selling-yahoo-aol-unit-to-apollo-in-usd-5b-deal-7300629/" title="Verizon selling Yahoo, AOL unit to Apollo in USD 5 billion deal">Verizon selling Yahoo, AOL unit to Apollo in USD 5 billion deal</a></h3><p>May 03, 2021 7:13 pm</p><p>Verizon said Monday that it will keep a 10 per cent stake in the new company, which will be called Yahoo.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/mobile-tabs/verizon-launches-yahoos-first-ever-budget-smartphone-at-49-6908555/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Verizon, Yahoo, Yahoo Mail, Yahoo Phone, Yahoo smartphone, ZTE Blade A3Y, ZTE Blade A3Y price, ZTE Blade A3Y specifications, ZTE Blade A3Y specs, ZTE Blade A3Y yahoo phone, Yahoo Phone price, ZTE Blade A3Y India Price, Yahoo Phone India price" loading="lazy" srcset="https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=450,250 450w, https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=600,334 600w, https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=768,427 768w, https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=728,405 728w, https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg?resize=150,83 150w, https://images.indianexpress.com/2020/10/Yahoo-Mobile.jpg 1200w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/mobile-tabs/verizon-launches-yahoos-first-ever-budget-smartphone-at-49-6908555/" title="US telecom operator Verizon launches Yahoo-branded smartphone for $50">US telecom operator Verizon launches Yahoo-branded smartphone for $50</a></h3><p>October 29, 2020 4:24 pm</p><p>Verizon in partnership with ZTE has launched a new budget Yahoo smartphone, which comes bundled with Yahoo services including Yahoo Mail Pro.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/techook/how-to-transfer-email-data-from-yahoo-mail-hotmail-to-gmail-6403414/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2020/05/gmail-759.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="transfer email data, gmail, yahoo mail, hotmail, transfer to gmail, switch to gmail" loading="lazy" srcset="https://images.indianexpress.com/2020/05/gmail-759.jpg?resize=450,250 450w, https://images.indianexpress.com/2020/05/gmail-759.jpg?resize=600,334 600w, https://images.indianexpress.com/2020/05/gmail-759.jpg?resize=728,405 728w, https://images.indianexpress.com/2020/05/gmail-759.jpg?resize=150,83 150w, https://images.indianexpress.com/2020/05/gmail-759.jpg 759w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/techook/how-to-transfer-email-data-from-yahoo-mail-hotmail-to-gmail-6403414/" title="How to transfer email data from Yahoo mail, HotMail to Gmail">How to transfer email data from Yahoo mail, HotMail to Gmail</a></h3><p>May 11, 2020 1:09 pm</p><p>Here&#039;s how you can transfer email data and contacts from Yahoo mail and HotMail to Gmail.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-mail-adds-reminders-and-unsubscribe-features-to-its-android-and-ios-app-5460936/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yahoo, Yahoo Mail, Yahoo Mail new features, Yahoo Mail Unsubscribe, Yahoo Mail Reminders, Yahoo Mail update, Yahoo Mail Android, Yahoo Mail iOS, Yahoo Mail Apple, Gmail, Inbox by Google, Outlook, Microsoft, Google" loading="lazy" srcset="https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg?resize=450,250 450w, https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg?resize=600,334 600w, https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg?resize=728,405 728w, https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg?resize=150,83 150w, https://images.indianexpress.com/2018/11/yahoo-mail-android-app-759.jpg 759w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-mail-adds-reminders-and-unsubscribe-features-to-its-android-and-ios-app-5460936/" title="Yahoo Mail adds &#039;Reminders&#039; and &#039;Unsubscribe&#039; features to its Android, iOS app">Yahoo Mail adds &#039;Reminders&#039; and &#039;Unsubscribe&#039; features to its Android, iOS app</a></h3><p>November 23, 2018 3:06 pm</p><p>Yahoo Mail introduces two new features to its iOS, and Android app dubbed Reminders and Unsubscribe.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-to-pay-50-million-other-costs-for-massive-security-breach-5415198/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Yahoo 2014 email hack, cyber security, Canadian data breach accused, Russian Federal Security Service, Karim Baratov, Russian hackers, cybercrimes, Yahoo Verizon, US Justice Department" loading="lazy" srcset="https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg?resize=450,250 450w, https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg?resize=600,334 600w, https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg?resize=728,405 728w, https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg?resize=150,83 150w, https://images.indianexpress.com/2017/11/yahoo_big_reuters_11.jpg 759w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/tech-news-technology/yahoo-to-pay-50-million-other-costs-for-massive-security-breach-5415198/" title="Yahoo to pay $50 million, other costs for massive security breach">Yahoo to pay $50 million, other costs for massive security breach</a></h3><p>October 24, 2018 1:15 am</p><p>About 3 billion Yahoo accounts were hit by hackers that included some linked to Russia by the FBI. The settlement reached in a San Francisco court covers about 1 billion of those accounts held by 200 million people in the US and Israel from 2012 through 2016.</p>		</div>
+				<div class="details">
+			<div class="about-thumb">
+				<a href="https://indianexpress.com/article/technology/opinion-technology/yahoo-messenger-shuts-down-for-good-goodbye-yahoo-chat-5263694/">
+					<img width="450" height="250" src="https://images.indianexpress.com/2018/07/yahoo.jpg?resize=270,152" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://images.indianexpress.com/2018/07/yahoo.jpg?resize=450,250 450w, https://images.indianexpress.com/2018/07/yahoo.jpg?resize=600,334 600w, https://images.indianexpress.com/2018/07/yahoo.jpg?resize=728,405 728w, https://images.indianexpress.com/2018/07/yahoo.jpg?resize=150,83 150w, https://images.indianexpress.com/2018/07/yahoo.jpg 759w" sizes="(max-width: 450px) 100vw, 450px" aria-label="article" />				</a>
+			</div>
+			<h3 class=""><a href="https://indianexpress.com/article/technology/opinion-technology/yahoo-messenger-shuts-down-for-good-goodbye-yahoo-chat-5263694/" title="Yahoo Messenger shuts down for good: A quick goodbye to an old friend">Yahoo Messenger shuts down for good: A quick goodbye to an old friend</a></h3><p>July 18, 2018 10:22 am</p><p>Yahoo Messenger shuts down leaving behind fond memories for those who used it extensively, right from the turn of the century. It&#039;s the end of an era.</p>		</div>
+							</div>
+										<div class="o-listing__load-more">
+						<a href="javascript:void(0);" class="m-featured-link m-featured-link--centered load_tag_data" id="load_tag_article" post_type="article" load-content="tag_article" tag_page="2">
+							<span class="m-featured-link__highlight">Load More</span>
+						</a>
+					</div>
+									</div>
+				<div class="search-result" id="AboutPhotos">
+					<div id="tag_photos">
+										</div>
+									</div>
+				<div class="search-result" id="AboutVideos">
+					<div id="tag_videos">
+											</div>
+									</div>
+								<div class="l-container"><div class="o-taboola-section"><div id="taboola-below-content"></div></div></div>		</div>
+			<div class="rightpanel">
+				<div class="add-first"><div class="ie-adtext">Advertisement</div><div id="gpt_ad_IE_ROS_ATF_300X250" class="ad-slot "></div></div><div class="editor-pic"><h6 class="rhs-sub-head">Best of Express</h6><ul><li><a class="click-event" href="https://indianexpress.com/article/political-pulse/refrain-from-making-unnecessary-comments-against-films-pm-modi-to-party-workers-8388649/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/modi-bjp-executive-meet-pulse.jpg?resize=150,83" alt=""></a><a class="click-event" href="https://indianexpress.com/article/political-pulse/refrain-from-making-unnecessary-comments-against-films-pm-modi-to-party-workers-8388649/" id="IE_RHS_Best_of_Express">Unnecessary remarks, including on films, overshadow our work: PM to party workers</a></li><li><a class="click-event" href="https://indianexpress.com/article/india/election-commission-announce-tripura-nagaland-meghalaya-assembly-polls-schedule-8388640/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/voting-2-1.jpg?resize=150,83" alt=""></a><a class="click-event" href="https://indianexpress.com/article/india/election-commission-announce-tripura-nagaland-meghalaya-assembly-polls-schedule-8388640/" id="IE_RHS_Best_of_Express">EC to announce schedule for Tripura, Meghalaya, Nagaland polls today</a></li><li><a class="click-event" href="https://indianexpress.com/article/entertainment/web-series/break-point-review-netflix-tennis-documentary-series-nick-kyrgios-rafael-nadal-8387316/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/break-point-review.jpg?resize=150,83" alt="break point review"></a><a href="https://indianexpress.com/section/entertainment/" class="name">Entertainment</a><a class="click-event" href="https://indianexpress.com/article/entertainment/web-series/break-point-review-netflix-tennis-documentary-series-nick-kyrgios-rafael-nadal-8387316/" id="IE_RHS_Best_of_Express">Break Point review: Netflix&#039;s tennis documentary serves drama, but leaves die-hard fans in the lurch as it courts casual viewers</a></li><li><a class="click-event" href="https://indianexpress.com/article/entertainment/bollywood/priyanka-chopra-shah-rukh-khan-botox-cosmetic-surgery-alyy-khan-interview-8386374/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/shah-rukh-priyanka-chopra.jpg?resize=150,83" alt=""></a><a href="https://indianexpress.com/section/entertainment/" class="name">Entertainment</a><a class="click-event" href="https://indianexpress.com/article/entertainment/bollywood/priyanka-chopra-shah-rukh-khan-botox-cosmetic-surgery-alyy-khan-interview-8386374/" id="IE_RHS_Best_of_Express">Priyanka Chopra and Shah Rukh Khan have had work done, says Don 2 co-star Alyy Khan: &#039;Look at his body, look at her face&#039;</a></li><li><a class="click-event" href="https://indianexpress.com/article/trending/trending-in-india/g-20-delegates-groove-with-artists-performing-maharashtrian-folk-dance-8387754/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/G20-delegates-dance-videp.jpg?resize=150,83" alt="G-20 delegates dancing video, G20 delegates dance with Maharashtra folk dancers, G20 delegates in Pune, G20, indian express"></a><a href="https://indianexpress.com/section/trending/" class="name">Trending</a><a class="click-event" href="https://indianexpress.com/article/trending/trending-in-india/g-20-delegates-groove-with-artists-performing-maharashtrian-folk-dance-8387754/" id="IE_RHS_Best_of_Express">G-20 delegates groove with artists performing Maharashtrian folk dance. Watch video</a></li><li><a class="click-event" href="https://indianexpress.com/article/trending/trending-globally/symbiotic-relationship-between-shrimps-and-eels-8387702/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/symbiotic-relationship-underwater.jpeg?resize=150,83" alt="symbiotic relationship between shrimps and eels, remora fishes and shark relationship, viral fish and eel videos, Cleaner Shrimps and Moray Eels, viral underwater videos, indian express"></a><a href="https://indianexpress.com/section/trending/" class="name">Trending</a><a class="click-event" href="https://indianexpress.com/article/trending/trending-globally/symbiotic-relationship-between-shrimps-and-eels-8387702/" id="IE_RHS_Best_of_Express">This symbiotic relationship between shrimps and eels has netizens in awe</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/cricket/india-look-to-finetune-balance-new-zealand-strive-familiarisation-8387907/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/Rohit-Sharma-1.jpg?resize=150,83" alt=""></a><a href="https://indianexpress.com/section/sports/" class="name">Sports</a><a class="click-event" href="https://indianexpress.com/article/sports/cricket/india-look-to-finetune-balance-new-zealand-strive-familiarisation-8387907/" id="IE_RHS_Best_of_Express">India look to finetune balance; New Zealand strive familiarisation</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/hockey/hockey-world-cup-indias-nilakanta-sharma-unglamorous-uncomplicated-but-a-demolition-man-8387860/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/Nilkantha.jpg?resize=150,83" alt="Hockey World Cup"></a><a href="https://indianexpress.com/section/sports/" class="name">Sports</a><a class="click-event" href="https://indianexpress.com/article/sports/hockey/hockey-world-cup-indias-nilakanta-sharma-unglamorous-uncomplicated-but-a-demolition-man-8387860/" id="IE_RHS_Best_of_Express">Hockey World Cup: India’s Nilakanta Sharma - Unglamorous, uncomplicated, but a demolition man</a></li><li><a class="click-event" href="https://indianexpress.com/article/opinion/columns/in-light-of-china-russia-alliance-and-ukraine-conflict-india-and-the-new-eurasia-8388063/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/C_Raja_Mohan_Card.jpg?resize=150,83" alt=""></a><a href="https://indianexpress.com/section/opinion/" class="name">Opinion</a><a class="click-event" href="https://indianexpress.com/article/opinion/columns/in-light-of-china-russia-alliance-and-ukraine-conflict-india-and-the-new-eurasia-8388063/" id="IE_RHS_Best_of_Express">In light of China-Russia alliance and Ukraine conflict, India and the new Eurasia</a></li><li><a class="click-event" href="https://indianexpress.com/article/explained/explained-global/shehbaz-peace-with-india-pak-pms-statement-8387904/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/Shahbaz-Sharif-1200.jpg?resize=150,83" alt="shehbaz sharif, shehbaz sharif peace with India, Pakistan has learnt lessons, indian express, express explained"></a><a href="https://indianexpress.com/section/explained/" class="name">Explained</a><a class="click-event" href="https://indianexpress.com/article/explained/explained-global/shehbaz-peace-with-india-pak-pms-statement-8387904/" id="IE_RHS_Best_of_Express">What to make of Pak PM&#039;s statement on peace with India </a></li><li><a class="click-event" href="https://indianexpress.com/article/lifestyle/sugar-sweetend-drinks-hair-loss-men-study-8384630/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/GettyImages-hair-transplant-1200.jpg?resize=150,83" alt="male hair loss"></a><a class="click-event" href="https://indianexpress.com/article/lifestyle/sugar-sweetend-drinks-hair-loss-men-study-8384630/" id="IE_RHS_Best_of_Express">Can sugar-sweetened drinks lead to hair loss in men?</a></li><li><a class="click-event" href="https://indianexpress.com/article/technology/news-flagged-as-fake-by-pib-not-allowed-on-online-platforms-meity-8388127/" id="IE_RHS_Best_of_Express"><img loading="lazy" width="120" height="67" src="https://images.indianexpress.com/2023/01/Fake-news.jpg?resize=150,83" alt=""></a><a class="click-event" href="https://indianexpress.com/article/technology/news-flagged-as-fake-by-pib-not-allowed-on-online-platforms-meity-8388127/" id="IE_RHS_Best_of_Express">News flagged as &#039;fake&#039; by PIB not allowed on online platforms: MeitY</a></li></ul></div><div class="add-first"><div class="ie-adtext">Advertisement</div><div id="gpt_ad_IE_ROS_BTF_300X250" class="ad-slot "></div></div><div class="latest-news">
+						<h6><a href="/latest-news/"><span>Jan 18:</span> Latest News</a></h6>
+						<ul><li><a class="click-event" href="https://indianexpress.com/article/cities/ahmedabad/hardik-patel-chanasma-fir-dropped-gujarat-hc-8388118/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/hardik-patel.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/cities/ahmedabad/hardik-patel-chanasma-fir-dropped-gujarat-hc-8388118/" id="IE_RHS_Latest_News">Proceedings against Hardik Patel in 2018 Chanasma FIR dropped</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/badminton/sindhu-bows-out-sen-saina-win-in-india-open-opener-8388117/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/badminton-roundup.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/sports/badminton/sindhu-bows-out-sen-saina-win-in-india-open-opener-8388117/" id="IE_RHS_Latest_News">Sindhu bows out; Sen, Saina win in India Open opener</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/football/dortmund-sign-norway-defender-ryerson-from-union-berlin-8388111/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/dortmund-transfe.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/sports/football/dortmund-sign-norway-defender-ryerson-from-union-berlin-8388111/" id="IE_RHS_Latest_News">Dortmund sign Norway defender Ryerson from Union Berlin</a></li><li><a class="click-event" href="https://indianexpress.com/article/cities/delhi/winter-session-after-oxygen-cylinders-masks-on-day-1-bjp-mlas-wear-all-black-in-assembly-to-protest-corruption-8388093/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/WhatsApp-Image-2023-01-17-at-12.19.19-PM.jpeg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/cities/delhi/winter-session-after-oxygen-cylinders-masks-on-day-1-bjp-mlas-wear-all-black-in-assembly-to-protest-corruption-8388093/" id="IE_RHS_Latest_News">To protest against ‘corruption’, Delhi BJP MLAs wear all-black to the Assembly session</a></li><li><a class="click-event" href="https://indianexpress.com/article/cities/delhi/pm-modi-bjp-national-executive-indiameet/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/PM-Modi-4.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/cities/delhi/pm-modi-bjp-national-executive-indiameet/" id="IE_RHS_Latest_News">India&#8217;s best era is coming: PM Modi at BJP national executive meet</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/cricket/whenever-i-am-batting-the-mood-in-the-dressing-room-is-relaxed-8388078/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/Sarfaraz-khan-2.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/sports/cricket/whenever-i-am-batting-the-mood-in-the-dressing-room-is-relaxed-8388078/" id="IE_RHS_Latest_News">‘Whenever I am batting, the mood in the dressing room is relaxed’</a></li><li><a class="click-event" href="https://indianexpress.com/article/cities/mumbai/dawood-ibrahim-has-second-wife-his-sister-haseena-parkars-son-tells-nia-8388082/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2022/11/dawood-ibrahim-1200.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/cities/mumbai/dawood-ibrahim-has-second-wife-his-sister-haseena-parkars-son-tells-nia-8388082/" id="IE_RHS_Latest_News">Dawood Ibrahim has second wife, his sister Haseena Parkar’s son tells NIA</a></li><li><a class="click-event" href="https://indianexpress.com/article/business/rupee-falls-by-12-paise-to-close-at-81-70-against-us-dollar-on-firm-crude-oil-prices-8388075/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/Rupee-2-2.jpg?resize=150,83" alt="indian rupee latest news today" /></a><a class="click-event" href="https://indianexpress.com/article/business/rupee-falls-by-12-paise-to-close-at-81-70-against-us-dollar-on-firm-crude-oil-prices-8388075/" id="IE_RHS_Latest_News">Rupee falls by 12 paise to close at 81.70 against US dollar on firm crude oil prices</a></li><li><a class="click-event" href="https://indianexpress.com/article/business/in-a-first-gautam-adani-to-deploy-hydrogen-powered-trucks-8388045/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/Gautam-Adani.jpg?resize=150,83" alt="" /></a><a class="click-event" href="https://indianexpress.com/article/business/in-a-first-gautam-adani-to-deploy-hydrogen-powered-trucks-8388045/" id="IE_RHS_Latest_News">In a first, Gautam Adani to deploy hydrogen-powered trucks</a></li><li><a class="click-event" href="https://indianexpress.com/article/sports/badminton/leaner-and-faster-nehwal-rolls-back-years-8388066/" id="IE_RHS_Latest_News"><img loading="lazy" src="https://images.indianexpress.com/2023/01/saina-nehwal-1.jpg?resize=150,83" alt="Saina Nehwal" /></a><a class="click-event" href="https://indianexpress.com/article/sports/badminton/leaner-and-faster-nehwal-rolls-back-years-8388066/" id="IE_RHS_Latest_News">Leaner and faster, Saina Nehwal rolls back years</a></li></ul></div><div class="add-first"><div class="ie-adtext">Advertisement</div><div id="gpt_ad_IE_ROS_BTF1_300X250" class="ad-slot "></div></div>			</div>
+	</div>
+</div>
+		<div id="append_breaking_box" class="breaking-scroll"></div>
+	</div>
+	<!-- Header Top Menu Section -->
+		<div id="section-nav">
+		<div class="top-button-strip">
+			<div class="menu-container">
+				<div class="app-btnds"></div>
+				<div class="row sub">				
+					<div class="t-headlink__colm">
+						<a id="evnav_subscribe_ham" href="/subscribe/?ref=sub_topHeader" class="m-subscribe tnav__link epaperlink show-subscribebtn" onClick="ga('send', 'event', 'Header Desktop', 'Hamburger', 'Subscribe');"><span class="tnav-txt t-headlink__sub-btn">Subscribe</span></a>					</div>
+					<div class="t-headlink__colm"><a href="/login/" id="evnav_login_ham" class="evnav_login_ham evham_signout t-headlink__signin" onclick='ga( "send", "event", "Header Desktop", "Hamburger", "Sign In" )'>Sign In</a></div>
+				</div>
+			</div>
+		</div>
+		<ul class="topics-menu">
+		<li><ul class="topics-submenu"><li class=""><a href="/subscribe/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'e-paper' )">e-paper</a></li><li class=""><a href="/about/express-premium/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Premium' )">Premium</a></li><li class=""><a href="https://indianexpress.com/section/india/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'India' )">India</a></li><li class=""><a href="/elections/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Elections 2022' )">Elections 2022</a></li></ul></li><li><ul class="topics-submenu"><li class=""><a href="/section/opinion/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Opinion' )">Opinion</a></li><li class=""><a href="https://indianexpress.com/section/political-pulse/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Political Pulse' )">Political Pulse</a></li><li class=""><a href="https://indianexpress.com/section/explained/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Explained' )">Explained</a></li><li class=""><a href="/section/science/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Science' )">Science</a></li></ul></li><li><ul class="topics-submenu"><li class=""><a href="https://indianexpress.com/section/sports/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Sports' )">Sports</a></li><li class=""><a href="https://indianexpress.com/section/world/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'World' )">World</a></li><li class=""><a href="/section/business/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Business' )">Business</a></li><li class=""><a href="https://indianexpress.com/section/entertainment/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Entertainment' )">Entertainment</a></li></ul></li><li><ul class="topics-submenu"><li class=""><a href="https://indianexpress.com/section/lifestyle/health/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Health' )">Health</a></li><li class=""><a href="https://indianexpress.com/section/lifestyle/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Lifestyle' )">Lifestyle</a></li><li class=""><a href="https://indianexpress.com/section/technology/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Technology' )">Technology</a></li><li class=""><a href="https://indianexpress.com/section/education/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Education' )">Education</a></li></ul></li><li><ul class="topics-submenu"><li class=""><a href="https://indianexpress.com/section/express-sunday-eye/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Eye' )">Eye</a></li><li class=""><a href="https://indianexpress.com/section/trending/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Trending' )">Trending</a></li><li class=""><a href="https://indianexpress.com/section/cities/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Cities' )">Cities</a></li><li class=""><a href="/newsletters/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Newsletters' )">Newsletters</a></li></ul></li><li><ul class="topics-submenu"><li class=""><a href="/photos/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Photos' )">Photos</a></li><li class=""><a href="/videos/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Videos' )">Videos</a></li><li class=""><a href="/audio/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Audio' )">Audio</a></li><li class=""><a href="/web-stories/" onclick="ga( 'send', 'event', 'Header Desktop', 'Hamburger', 'Web Stories' )">Web Stories</a></li></ul></li>	</ul>
+		<div class="bottom-button-strip"><div class="menu-container"><ul id="menu-header-sub-menu" class="s-level-menu-item"><li class="menu-red"><span>Trending</span></li><li class="" id=""><a href="https://indianexpress.com/puzzles-and-games/" class="" id="">Daily Crossword</a></li><li class="highlightBg-red" id=""><a href="https://indianexpress.com/subscribe/digital_2/" class="" id="">New Year Offer</a></li><li class="" id=""><a href="https://indianexpress.com/section/lifestyle/health-specials/" class="" id="">Health Specials</a></li><li class="" id=""><a href="https://indianexpress.com/section/entertainment/movie-review/" class="" id="">Movie Reviews</a></li><li class="" id=""><a href="https://indianexpress.com/section/horoscope/" class="" id="">Daily Horoscope</a></li><li class="" id=""><a href="https://indianexpress.com/section/upsc-current-affairs/" class="" id="">UPSC Special</a></li><li class="" id=""><a href="https://indianexpress.com/about/ranji-trophy/" class="" id="">Ranji Trophy</a></li></ul></div></div>		</div>
+	<!-- // Header Top Menu Section End -->
+<div id="id_newsletter_subscription_popup" class="ev-meter-content" data-slug="default"> </div>	<div id="section-nav" class="hide-element" [class]="hamvisible ? 'show-element' : 'hide-element'">
+	<div class="top-button-strip">
+		<div class="toggle-close hamburger-menu-close" on="tap:AMP.setState({hamvisible: !hamvisible})">close </div>
+		<ul class="login-mobile">
+			<li class="sub-btn">
+				<a id="evnav_subscribe_ham" href="/subscribe/?ref=sub_topHeader" class="m-subscribe tnav__link epaperlink show-subscribebtn" onClick="ga('send', 'event', 'Header Desktop', 'Hamburger', 'Subscribe');"><span class="tnav-txt t-headlink__sub-btn">Subscribe</span></a>			</li>
+			<li class="sing-in"><a href="/login/" id="evnav_login_ham" class="evnav_login_ham evham_signout t-headlink__signin ie-user-displayname" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Sign In', 'https://indianexpress.com/login/' )"><span class="ie-signin-text">Sign In<span class="ie-nonloggedin-user"></span></span></a></li>
+					</ul>
+	</div>
+	<div class="mobi-menu">
+		<div class="search">
+							<form role="search" method="get" id="searchform" class="searchform" action="https://cse.google.com/cse" target="_blank">
+					<input type="hidden" value="e1a7e63ac59ae4a39" name="cx" id="search">
+					<input type="text" placeholder="Search here"  name="q" id="s" class="m-serch-input"/>
+					<input type="submit" id="searchsubmit" class="serch-btn"  />
+				</form>
+					</div>
+		<ul class="ie-mobi-menu"><li class="" id=""><a href="/subscribe/" class="" id="mobi_menu_e-paper" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'e-paper', 'https://indianexpress.com/subscribe/' )">e-paper</a></li><li class="" id=""><a href="/about/express-premium/" class="" id="mobi_menu_premium" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Premium', 'https://indianexpress.com/about/express-premium/' )">Premium</a></li><li class="" id=""><a href="https://indianexpress.com/section/india/" class="" id="mobi_menu_india" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'India', 'https://indianexpress.com/section/india/' )">India</a></li><li class="" id=""><a href="/elections/" class="" id="mobi_menu_elections_2022" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Elections 2022', 'https://indianexpress.com/elections/' )">Elections 2022</a></li></ul><ul class="ie-mobi-menu"><li class="" id=""><a href="/section/opinion/" class="" id="mobi_menu_opinion" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Opinion', 'https://indianexpress.com/section/opinion/' )">Opinion</a></li><li class="" id=""><a href="https://indianexpress.com/section/political-pulse/" class="" id="mobi_menu_political_pulse" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Political Pulse', 'https://indianexpress.com/section/political-pulse/' )">Political Pulse</a></li><li class="" id=""><a href="https://indianexpress.com/section/explained/" class="" id="mobi_menu_explained" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Explained', 'https://indianexpress.com/section/explained/' )">Explained</a></li><li class="" id=""><a href="/section/science/" class="" id="mobi_menu_science" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Science', 'https://indianexpress.com/section/science/' )">Science</a></li></ul><ul class="ie-mobi-menu"><li class="" id=""><a href="https://indianexpress.com/section/sports/" class="" id="mobi_menu_sports" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Sports', 'https://indianexpress.com/section/sports/' )">Sports</a></li><li class="" id=""><a href="https://indianexpress.com/section/world/" class="" id="mobi_menu_world" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'World', 'https://indianexpress.com/section/world/' )">World</a></li><li class="" id=""><a href="/section/business/" class="" id="mobi_menu_business" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Business', 'https://indianexpress.com/section/business/' )">Business</a></li><li class="" id=""><a href="https://indianexpress.com/section/entertainment/" class="" id="mobi_menu_entertainment" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Entertainment', 'https://indianexpress.com/section/entertainment/' )">Entertainment</a></li></ul><ul class="ie-mobi-menu"><li class="" id=""><a href="https://indianexpress.com/section/lifestyle/health/" class="" id="mobi_menu_health" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Health', 'https://indianexpress.com/section/lifestyle/health/' )">Health</a></li><li class="" id=""><a href="https://indianexpress.com/section/lifestyle/" class="" id="mobi_menu_lifestyle" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Lifestyle', 'https://indianexpress.com/section/lifestyle/' )">Lifestyle</a></li><li class="" id=""><a href="https://indianexpress.com/section/technology/" class="" id="mobi_menu_technology" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Technology', 'https://indianexpress.com/section/technology/' )">Technology</a></li><li class="" id=""><a href="https://indianexpress.com/section/education/" class="" id="mobi_menu_education" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Education', 'https://indianexpress.com/section/education/' )">Education</a></li></ul><div class="menu-sep"></div><ul class="ie-mobi-menu"><li class="" id=""><a href="https://indianexpress.com/section/express-sunday-eye/" class="" id="mobi_menu_eye" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Eye', 'https://indianexpress.com/section/express-sunday-eye/' )">Eye</a></li><li class="" id=""><a href="https://indianexpress.com/section/trending/" class="" id="mobi_menu_trending" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Trending', 'https://indianexpress.com/section/trending/' )">Trending</a></li><li class="" id=""><a href="https://indianexpress.com/section/cities/" class="" id="mobi_menu_cities" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Cities', 'https://indianexpress.com/section/cities/' )">Cities</a></li><li class="" id=""><a href="/newsletters/" class="" id="mobi_menu_newsletters" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Newsletters', 'https://indianexpress.com/newsletters/' )">Newsletters</a></li></ul><ul class="ie-mobi-menu"><li class="" id=""><a href="/photos/" class="" id="mobi_menu_photos" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Photos', 'https://indianexpress.com/photos/' )">Photos</a></li><li class="" id=""><a href="/videos/" class="" id="mobi_menu_videos" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Videos', 'https://indianexpress.com/videos/' )">Videos</a></li><li class="" id=""><a href="/audio/" class="" id="mobi_menu_audio" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Audio', 'https://indianexpress.com/audio/' )">Audio</a></li><li class="" id=""><a href="/web-stories/" class="" id="mobi_menu_web_stories" onclick="ga( 'send', 'event', 'Header M-site', 'Hamburger', 'Web Stories', 'https://indianexpress.com/web-stories/' )">Web Stories</a></li></ul>	</div>
+	<!-- app button -->
+		<!-- app button -->
+</div>	<footer class="hide_utm_paytm_phonepe">
+				<div class="clear"></div>
+		<div class="trending-wrap">
+			<div class="trending-sec">
+				<div class="trending-head">Top Categories</div>
+				<ul id="tcat-express-group" class ="trending-list"><li id="menu-item-7956620" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956620"><a href="https://indianexpress.com/section/explained/">Explained News</a></li>
+<li id="menu-item-7956622" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956622"><a href="https://indianexpress.com/section/political-pulse/">Political Pulse</a></li>
+<li id="menu-item-7956624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956624"><a href="https://indianexpress.com/section/opinion/">Latest Opinion</a></li>
+<li id="menu-item-7956626" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956626"><a href="https://indianexpress.com/section/cities/mumbai/">Mumbai News</a></li>
+<li id="menu-item-7956627" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956627"><a href="https://indianexpress.com/section/cities/delhi/">Delhi News</a></li>
+<li id="menu-item-7956630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956630"><a href="https://indianexpress.com/section/cities/pune/">Pune News</a></li>
+<li id="menu-item-7956631" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956631"><a href="https://indianexpress.com/section/cities/bangalore/">Bangalore News</a></li>
+<li id="menu-item-7956634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956634"><a href="https://indianexpress.com/section/entertainment/bollywood/">Bollywood News</a></li>
+<li id="menu-item-7956635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956635"><a href="https://indianexpress.com/section/lifestyle/health/">Health News</a></li>
+<li id="menu-item-7956638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956638"><a href="https://indianexpress.com/section/india/">India News</a></li>
+<li id="menu-item-7956639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956639"><a href="https://indianexpress.com/section/sports/">Sports News</a></li>
+<li id="menu-item-7956640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7956640"><a href="https://indianexpress.com/section/lifestyle/">Lifestyle News</a></li>
+<li id="menu-item-8147831" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147831"><a href="https://indianexpress.com/section/Jobs/">Jobs</a></li>
+<li id="menu-item-8147832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147832"><a href="https://indianexpress.com/section/technology/mobile-tabs/">Mobile &amp; Tabs</a></li>
+<li id="menu-item-8147835" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147835"><a href="https://indianexpress.com/section/technology/tech-reviews/">Tech Reviews</a></li>
+<li id="menu-item-8147836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147836"><a href="https://indianexpress.com/section/technology/gadgets/">Gadgets</a></li>
+<li id="menu-item-8147837" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147837"><a href="https://indianexpress.com/section/technology/mobile-tabs/">Mobile &amp; Tabs</a></li>
+<li id="menu-item-8147834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147834"><a href="https://indianexpress.com/section/lifestyle/food-wine/">Food &amp; Wine</a></li>
+<li id="menu-item-8280314" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8280314"><a href="/elections/">Elections 2022</a></li>
+<li id="menu-item-8147844" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8147844"><a href="https://indianexpress.com/section/lifestyle/fitness/">Fitness</a></li>
+</ul>			</div>
+		</div>
+		<div class="clear"></div><div class="trending-wrap"><div class="trending-sec"><div class="trending-head">Trending News</div><ul class="trending-list"><li><a href="https://indianexpress.com/section/horoscope/">Horoscope</a></li><li><a href="https://indianexpress.com/section/india/">India News</a></li><li><a href="https://eureka.indianexpress.com/video/art-craft/">Art &amp; Craft Classes for Kids</a></li><li><a href="https://eureka.indianexpress.com/video/fitness/">Fitness Classes for Kids</a></li><li><a href="https://eureka.indianexpress.com/video/dance/">Dance Classes for Kids</a></li><li><a href="https://indianexpress.com/section/entertainment/">Entertainment News</a></li><li><a href="https://indianexpress.com/section/upsc-current-affairs/">UPSC News</a></li><li><a href="https://indianexpress.com/subscribe/all-access/">Buy All-Access pass</a></li><li><a href="https://indianexpress.com/subscribe/">Subscribe to The Indian Express</a></li><li><a href="https://indianexpress.com/subscribe/premium/">Buy Digital Premium</a></li><li><a href="https://indianexpress.com/article/cities/bangalore/bengaluru-news-live-updates-covid-karnataka-8354623/">Bengaluru News Live Updates</a></li><li><a href="https://indianexpress.com/article/cities/chennai/chennai-news-live-updates-stalin-tamil-nadu-dmk-8355714/">Chennai News Live Updates</a></li><li><a href="https://indianexpress.com/article/education/jee-advanced-2023-why-class-12th-performance-criterion-75-is-important-for-admission-in-iits-8344510/">JEE Advanced 2023</a></li><li><a href="https://indianexpress.com/article/india/supreme-court-demonetisation-noteban-case-verdict-live-updates-8355842/">Supreme Court Demonetisation Case Verdict Live Updates</a></li><li><a href="https://indianexpress.com/article/technology/science/celestial-events-2023-solar-lunar-eclipse-meteor-shower-8354968/">Celestial events to look forward to in 2023</a></li></ul></div></div><div class="clear"></div><div class="trending-wrap"><div class="trending-sec"><div class="trending-head">LATEST STORIES</div><ul class="trending-list"><li><a href="https://indianexpress.com/article/business/market/markets-climb-in-early-trade-8388772/">Markets climb in early trade</a></li><li><a href="https://indianexpress.com/article/cities/pune/koregaon-bhima-inquiry-commission-extension-till-march-31-8388738/">Koregaon Bhima inquiry commission gets yet another extension, till March 31</a></li><li><a href="https://indianexpress.com/article/cities/pune/pune-runners-set-off-to-cover-338-km-in-72-hours-to-raise-diabetes-awareness-8388792/">3 Pune runners set off to cover 338 km in 72 hours to raise diabetes awareness</a></li><li><a href="https://indianexpress.com/article/business/economy/rupee-falls-against-us-dollar-8388739/">Rupee falls 13 paise to 81.82 against US dollar</a></li><li><a href="https://indianexpress.com/article/education/iim-ahmedabad-operational-freedom-integral-8388705/">IIM-Ahmedabad objects to PIL filed in Gujarat HC seeking reservation in PhD admissions</a></li><li><a href="https://indianexpress.com/article/cities/pune/egg-prices-surge-in-pune-as-lower-production-hits-supplies-during-winter-8388775/">Egg prices surge in Pune as lower production hits supplies during winter</a></li><li><a href="https://indianexpress.com/article/sports/tennis/how-coco-gauff-took-up-boxing-to-get-better-at-tennis-8388779/">How Coco Gauff took up boxing to get better at tennis</a></li><li><a href="https://indianexpress.com/article/horoscope/horoscope-january-19-2023-check-astrological-prediction-for-scorpio-sagittarius-cancer-aries-and-other-signs-8366082/">Horoscope January 19, 2023: Check astrological prediction for Scorpio, Sagittarius, Cancer, Aries and other signs</a></li><li><a href="https://indianexpress.com/article/sports/cricket/kohli-can-make-a-sacrifice-for-ishan-kishan-manjrekars-solution-to-balance-indias-playing-xi-8388770/">&#8216;Virat Kohli can make a sacrifice for Ishan Kishan&#8217;: Sanjay Manjrekar’s solution to balance India’s playing XI</a></li><li><a href="https://indianexpress.com/article/cities/chandigarh/chandigarhs-gmsh-16-to-provide-free-emergency-care-to-trauma-stroke-patients-8388757/">Chandigarh’s GMSH-16 to provide free emergency care to trauma, stroke patients</a></li><li><a href="https://indianexpress.com/article/cities/delhi/crpf-and-aiims-delhi-set-up-shelter-home-for-patients-and-their-attendants-8388737/">CRPF and AIIMS Delhi set up shelter home for patients and their attendants</a></li><li><a href="https://indianexpress.com/article/political-pulse/karnataka-congress-leader-laxmi-hebbalkar-women-gruha-lakshmi-scheme-assembly-elections-siddaramaiah-8388731/">Karnataka Congress leader Laxmi Hebbalkar: &#8216;Rs 2,000 promise will gain confidence of women, their family&#8230; One woman is not a single vote, but equivalent to five&#8217;</a></li><li><a href="https://indianexpress.com/article/entertainment/bollywood/twinkle-khanna-funny-twist-prince-harrys-fights-with-prince-williams-decided-to-call-sister-spare-instead-of-rinke-8388710/">Twinkle Khanna gives funny twist to Prince Harry&#8217;s fall-out with Prince William, says she has decided to call her sister &#8216;Spare&#8217;</a></li><li><a href="https://indianexpress.com/article/trending/trending-globally/theatre-troupe-recreates-biblical-paintings-as-live-paintings-with-actors-8388712/">Watch: Theatre troupe recreates biblical paintings as live paintings with actors. Video mesmerises netizens</a></li><li><a href="https://indianexpress.com/article/entertainment/television/sayantani-ghosh-says-radhika-madan-shouldnt-put-down-tv-8388688/">Sayantani Ghosh doubles down on criticism of Radhika Madan&#8217;s comments about TV: &#8216;Don&#8217;t treat it as stepping stone&#8230;&#8217;</a></li><li><a href="https://indianexpress.com/article/cities/delhi/delhi-assembly-bjp-mayoral-polls-8388690/">BJP’s focus to shift to mayoral polls as Delhi Assembly Session concludes today</a></li></ul></div></div>		<div class="g-footer-aux">
+			<div class="g-footer-block">
+				<div class="g-footer-sec g-footer-lft">
+					
+					<div class="g-footer-title">Follow Us</div>
+					<ul class="g-follow-icon g-follow">
+						<li><a href="https://www.facebook.com/indianexpress" title="Facebook" target="_blank" rel="noopener">
+							<img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-facebook.svg" width="32" height="32" alt="Facebook" />
+						</a></li>
+						<li><a href="https://twitter.com/indianexpress" title="Twitter" target="_blank" rel="noopener">
+							<img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-twitter.svg" width="32" height="32" alt="Twitter" />
+						</a></li>
+						<li><a href="https://www.linkedin.com/company/indian-express/" title="Linkedin" target="_blank" rel="noopener">
+							<img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-linkedin.svg" width="32" height="32" alt="Linkedin" />
+						</a></li>
+						<li><a href="https://www.instagram.com/indianexpress/" title="Instagram" target="_blank" rel="noopener">
+							<img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-instagram.svg" width="32" height="32" alt="Instagram" />
+						</a></li>
+					</ul>
+					<div class="g-footer-title">Download Apps</div>
+					<ul class="g-follow-icon">
+						<li><a href="https://play.google.com/store/apps/details?id=com.indianexpress.android&hl=en" title="Android" target="_blank" rel="noopener"><img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-android.svg" width="32" height="32" alt="Android" /></a></li>
+						<li><a href="https://itunes.apple.com/us/app/the-indian-express/id506351833?mt=8" title="iPhone" target="_blank" rel="noopener"><img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/icons/icon-apple.svg" width="32" height="32" alt="iPhone" /></a></li>
+					</ul>
+												<div class="news-guard ev-meter-content">
+							<ul>
+								<li><img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/newsguard-logo-w.svg" width="120px" height="18px" alt="Newsguard"> </li>
+								<li><img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/newsguard-check.svg" width="20px" height="26px" alt="Newsguard"> </li>
+								<li> The Indian Express website has been rated GREEN for its credibility and trustworthiness by Newsguard, a global service that rates news sources for their journalistic standards.
+								</li>
+							</ul>
+						</div>
+											</div>
+				<div class="g-footer-sec g-footer-md">
+					<div class="g-footer-title">Express Group</div>
+					<ul id="express-group" class ="g-express-group"><li id="menu-item-6454151" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-6454151"><a target="_blank" rel="noopener" href="https://indianexpress.com/">The Indian Express</a></li>
+<li id="menu-item-6454159" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454159"><a target="_blank" rel="noopener" href="https://tamil.indianexpress.com/">ieTamil.com</a></li>
+<li id="menu-item-6454152" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454152"><a target="_blank" rel="noopener" href="https://www.financialexpress.com/">The Financial Express</a></li>
+<li id="menu-item-6454162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454162"><a target="_blank" rel="noopener" href="https://bengali.indianexpress.com/">ieBangla.com</a></li>
+<li id="menu-item-6454153" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454153"><a target="_blank" rel="noopener" href="https://www.loksatta.com/">Loksatta</a></li>
+<li id="menu-item-6454163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454163"><a target="_blank" rel="noopener" href="https://malayalam.indianexpress.com/">ieMalayalam.com</a></li>
+<li id="menu-item-6454156" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454156"><a target="_blank" rel="noopener" href="https://www.jansatta.com/">Jansatta</a></li>
+<li id="menu-item-8185373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8185373"><a target="_blank" rel="noopener" href="https://gujarati.indianexpress.com/">ieGujarati.com</a></li>
+<li id="menu-item-6454164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454164"><a target="_blank" rel="noopener" href="https://www.inuth.com/">inUth</a></li>
+<li id="menu-item-6454166" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454166"><a target="_blank" rel="noopener" href="https://expressgroup.indianexpress.com/">The ExpressGroup</a></li>
+<li id="menu-item-6703745" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6703745"><a target="_blank" rel="noopener" href="https://www.myinsuranceclub.com/">MyInsuranceClub</a></li>
+<li id="menu-item-7076813" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076813"><a target="_blank" rel="noopener" href="https://indianexpress.com/newsletters/">Newsletters</a></li>
+<li id="menu-item-6454169" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454169"><a target="_blank" rel="noopener" href="https://indianexpress.com/26-11/">26/11 Stories of Strength</a></li>
+<li id="menu-item-6454167" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454167"><a target="_blank" rel="noopener" href="https://rngfoundation.com/awards/">Ramnath Goenka Excellence in Journalism Awards</a></li>
+<li id="menu-item-7321503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7321503"><a target="_blank" rel="noopener" href="https://eureka.indianexpress.com/">Online Classes for Kids</a></li>
+<li id="menu-item-7454583" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7454583"><a target="_blank" rel="noopener" href="https://www.lighthousejournalism.com/">Light House Journalism</a></li>
+<li id="menu-item-7988404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7988404"><a target="_blank" rel="noopener" href="https://www.myinsuranceclub.com/life-insurance/term-insurance/">Compare Term Insurance</a></li>
+</ul>				</div>
+				<div class="g-footer-sec g-footer-rht">
+					<div class="g-footer-title">Quick Links</div>
+					<ul id="g-express-group" class ="g-express-group quick-links"><li id="menu-item-6454140" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454140"><a href="/terms-and-conditions/">T&#038;C</a></li>
+<li id="menu-item-6454142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454142"><a href="/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-6454143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454143"><a href="https://expressgroup.indianexpress.com/advertise.html">Advertise with Us</a></li>
+<li id="menu-item-7349376" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7349376"><a href="https://indianexpress.com/brand-solutions/">Brand Solutions</a></li>
+<li id="menu-item-6454144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454144"><a href="/contact-us/">Contact Us</a></li>
+<li id="menu-item-6454146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454146"><a href="http://subscribe.indianexpress.com/">Subscribe</a></li>
+<li id="menu-item-6454147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6454147"><a href="https://indianexpress.com/article/what-is/what-is-the-protection-of-children-from-sexual-offences-act-2012/">Statutory provisions on reporting (sexual offenses)</a></li>
+<li id="menu-item-6787146" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6787146"><a href="https://indianexpress.com/article/india/code-of-ethics-for-digital-news-websites-6758543/">This website follows the DNPA&#8217;s code of conduct</a></li>
+<li id="menu-item-7844624" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7844624"><a target="_blank" rel="noopener" href="https://expressgroup.indianexpress.com/corporate-social-responsibility.html">CSR</a></li>
+</ul>				</div>
+			</div>
+			<div class="g-foot">
+					<div class="privacy">Copyright &copy; 2023 The Indian Express [P] Ltd. All Rights Reserved </div>
+	<div class="wp">
+		<a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&amp;utm_medium=web&amp;utm_campaign=VIP%20Footer%20Credit&amp;utm_term=indianexpress.com" rel="nofollow,noopener" class="powered-by-wpcom" target="_blank" aria-label="Powered by WordPress.com VIP">
+	<img loading="lazy" src="https://indianexpress.com/wp-content/themes/indianexpress/images/vip-powered-logo.png" alt="Powered by WordPress.com VIP" width="187" height="26">	</a></div>
+				</div>
 
-                <div class="col-md-3 col-sm-6">
-                    <h4>Company</h4>
-                    <div>
-                        <ul class="arrow">
-                            <li><a href="#">Company Overview</a></li>
-                            <li><a href="#">Meet The Team</a></li>
-                            <li><a href="#">Our Awesome Partners</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Frequently Asked Questions</a></li>
-                            <li><a href="#">Conatct Us</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
-                            <li><a href="#">Copyright</a></li>
-                        </ul>
-                    </div>
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Latest Blog</h4>
-                    <div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb1.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 17 Aug 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb2.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 13 Sep 2013</small>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <img src="images/blog/thumb3.jpg" alt="">
-                            </div>
-                            <div class="media-body">
-                                <span class="media-heading"><a href="#">Pellentesque habitant morbi tristique senectus</a></span>
-                                <small class="muted">Posted 11 Jul 2013</small>
-                            </div>
-                        </div>
-                    </div>  
-                </div><!--/.col-md-3-->
-
-                <div class="col-md-3 col-sm-6">
-                    <h4>Address</h4>
-                    <address>
-                        <strong>Twitter, Inc.</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
-                        <abbr title="Phone">P:</abbr> (123) 456-7890
-                    </address>
-                    <h4>Newsletter</h4>
-                    <form role="form">
-                        <div class="input-group">
-                            <input type="text" class="form-control" autocomplete="off" placeholder="Enter your email">
-                            <span class="input-group-btn">
-                                <button class="btn btn-danger" type="button">Go!</button>
-                            </span>
-                        </div>
-                    </form>
-                </div> <!--/.col-md-3-->
-            </div>
-        </div>
-    </section><!--/#bottom-->
-
-    <footer id="footer" class="midnight-blue">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6">
-                    &copy; 2013 <a target="_blank" href="http://shapebootstrap.net/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">ShapeBootstrap</a>. All Rights Reserved.
-                </div>
-                <div class="col-sm-6">
-                    <ul class="pull-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a></li><!--#gototop-->
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer><!--/#footer-->
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/main.js"></script>
-</body>
+		</div>
+		</footer>
+	<div id="gpt_ad_IE_ROS_ATF_1X1" class="ad-slot "></div><div id="gpt_ad_IE_ROS_OOP_INNOV1" class="ad-slot "></div><div id="gpt_ad_IE_ROS_OOP_INNOV2" class="ad-slot "></div><script type="text/javascript">
+				var siteDomain  = "https:\/\/ecommerce.indianexpress.com";
+				var authDomain  = "https:\/\/authentication.indianexpress.com\/";
+				var vendorId    = 2;
+				var eCommConfig = {
+						orderPage: "https:\/\/indianexpress.com\/subscriptions\/",
+						newsStandPage: "https:\/\/indianexpress.com\/express-plus\/today-newsstand\/",
+						issuesPage: "https:\/\/indianexpress.com\/express-plus\/epaper\/previous-issues\/",
+						productPage: "https:\/\/indianexpress.com\/subscribe\/"
+				};
+			</script><script>
+		(function (d, s, id) {
+			IESSO = window.IESSO || (window.IESSO = []);
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.defer = "defer";
+			js.src = "https://accounts.indianexpress.com/swagger-js/v5.0.0/sdk.js?v=08082022.1";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, "script", "ie-jssdk"));
+		IESSO.push({
+			client_id: "indianexpress-03",
+			redirect_uri: "https://indianexpress.com/accountredirects/",
+			request_uri: location.href,
+		});
+	</script><!-- Global site tag (gtag.js) - Google Ads: UA-1403607-78 --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-1403607-78"></script><script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag( 'js', new Date() );
+		gtag( 'config', 'UA-1403607-78' );
+		</script>				<script type="text/javascript">
+		var clevertap = {event:[], profile:[], account:[], onUserLogin:[], notifications:[], privacy:[]};
+		sessionStorage['WZRK_D'] = " ";
+		localStorage['WZRK_D'] = " ";
+		 // replace with the CLEVERTAP_ACCOUNT_ID with the actual ACCOUNT ID value from your Dashboard -> Settings page
+		clevertap.account.push({"id": "844-RZZ-995Z"});
+		clevertap.privacy.push({optOut: false}); //set the flag to true, if the user of the device opts out of sharing their data
+		clevertap.privacy.push({useIP: false}); //set the flag to true, if the user agrees to share their IP data
+		 (function () {
+			 var wzrk = document.createElement('script');
+			 wzrk.type = 'text/javascript';
+			 wzrk.async = true;
+			 wzrk.src = ('https:' == document.location.protocol ? 'https://d2r1yp2w7bby2u.cloudfront.net' : 'http://static.clevertap.com') + '/js/a.js';
+			 var s = document.getElementsByTagName('script')[0];
+			 s.parentNode.insertBefore(wzrk, s);
+		  })();
+	</script>
+	<script id='ie_async_ad_code_js-js-extra'>
+var ad_code_params = {"articleId":"","page_action":"single","check_delay":"","sponsor_tagId":"","pubarticleId":"","pub_inhouse_refresh":"","pub_inhouse_delay_time":"","ad_refresh_slot_wise":"","ad_refresh_off_slots":"","loop_counter":"24","ad_units":[{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ATF_1x1","slot_size":[1,1],"slot_id":"gpt_ad_IE_ROS_ATF_1X1"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ATF_728X90","slot_size":[[970,250],[970,90],[970,200],[728,90]],"slot_id":"gpt_ad_IE_ROS_ATF_728X90"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ATF_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_ATF_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_MID_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_MID_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_BTF_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_BTF_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_BTF1_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_BTF1_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_MID_728X90","slot_size":[[970,250],[970,90],[970,200],[728,90],"fluid"],"slot_id":"gpt_ad_IE_ROS_MID_728X90"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_BTF_728X90","slot_size":[[970,250],[970,90],[970,200],[728,90],"fluid"],"slot_id":"gpt_ad_IE_ROS_BTF_728X90"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_OOP_INNOV1","slot_size":"","slot_id":"gpt_ad_IE_ROS_OOP_INNOV1"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_OOP_INNOV2","slot_size":"","slot_id":"gpt_ad_IE_ROS_OOP_INNOV2"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_SKIN_LHS","slot_size":[[120,600],[160,600]],"slot_id":"gpt_ad_IE_ROS_LEFT_GUTTER"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_SKIN_RHS","slot_size":[[120,600],[160,600]],"slot_id":"gpt_ad_IE_ROS_RIGHT_GUTTER"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_add_size_video_gpt_desktop","slot_size":["fluid",[300,250],[640,360]],"slot_id":"gpt_ad_IE_ROS_INT_CAMP_DESK"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_Promotional_Slug_220x70","slot_size":[220,70],"slot_id":"gpt_ad_IE_ROS_PROMO_SLUG_DESK"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ROTATE_300X250","slot_size":[[300,250],[336,280],"fluid"],"slot_id":"gpt_ad_IE_ROS_ROTATE_1_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ROTATE_300X250","slot_size":[[300,250],[336,280],"fluid"],"slot_id":"gpt_ad_IE_ROS_ROTATE_2_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ROTATE_300X250","slot_size":[[300,250],[336,280],"fluid"],"slot_id":"gpt_ad_IE_ROS_ROTATE_3_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ROTATE_300X250","slot_size":[[300,250],[336,280],"fluid"],"slot_id":"gpt_ad_IE_ROS_ROTATE_4_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_ROTATE_300X250","slot_size":[[300,250],[336,280],"fluid"],"slot_id":"gpt_ad_IE_ROS_ROTATE_5_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_NewsBox_BTF2_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_NewsBox_BTF2_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_PhotosBox_BTF2_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_PhotosBox_BTF2_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_PhotosBox_BTF3_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_PhotosBox_BTF3_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_VideosBox_BTF2_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_VideosBox_BTF2_300X250"},{"slot_name":"\/1050432\/www.indianexpress.com\/IE_ROS_ABOUT_AS_VideosBox_BTF3_300X250","slot_size":[[300,250],[300,600],"fluid"],"slot_id":"gpt_ad_IE_ROS_VideosBox_BTF3_300X250"}]};
+</script>
+<script src='https://indianexpress.com/wp-content/plugins/express-ad-code-manager/js/pubmatic-header-ad-codes.js?ver=2022.11.22.1' id='ie_async_ad_code_js-js'></script>
+<script id='ie_async_ad_code_js-js-after'>
+var custom_ua_data = {"articleId":"","pageType":"list","title":"","authors":"","sections":"about,yahoo","tags":"","slug":""}
+var templateType = "other";
+			var peCid=2;
+			(function(d, s) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				js = d.createElement(s);
+				js.id = "psdk";
+				js.async = 1;
+				js.src = "https://ua.indianexpress.com/personlization-sdk.min.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, "script"));
+</script>
+<script src='https://indianexpress.com/wp-content/themes/indianexpress/js/ie-events-all.js?ver=21122022.1' id='ie-events-all-js-js'></script>
+<script id='ie-chartbeat-event-tracking-js-config-js-extra'>
+var ChartBeatEventTrackingConfig = {"account_id":"65545","account_domain":"indianexpress.com","sections_name":"\"\"","authors_name":"\"\""};
+</script>
+<script src='https://indianexpress.com/wp-content/plugins/ie-chartbeat-event-tracking/assets/js/chartbeat-event-tracking-config.js?ver=2022.05.19.1' id='ie-chartbeat-event-tracking-js-config-js'></script>
+<script id='ie-chartbeat-event-tracking-js-js-extra'>
+var ChartBeatEventTracking = {"pageType":"single"};
+</script>
+<script src='https://indianexpress.com/wp-content/plugins/ie-chartbeat-event-tracking/assets/js/chartbeat-event-tracking.js?ver=2022.05.19.1' id='ie-chartbeat-event-tracking-js-js'></script>
+<script src='https://indianexpress.com/wp-content/themes/indianexpress/js/evolok/min/ev-dab.min.js?ver=23122021.10' id='ev-dab-js'></script>
+<script id='ev-em-js-extra'>
+var custom_ev_data = {"articleId":"","site":"The Indian Express","title":"Yahoo","publish_date":"","update_date":"","authors":"","category":"","section":"about-listing","section_page":"","tags":"section_tags","count_metering":"true","premium":"true","premium_paywall":"false","paid_after_date":"","paid_till_date":"","paid_after_date_ist":"","paid_till_date_ist":"","is_multimedia":"no","article_type":"article","no_of_paragraph":"1","enable_evolok_plan_cookie":"1"};
+var moengage_events_status = {"enable":"1"};
+var subscribe_buttons = {"buttons_text":"Subscribe","buttons_link":"\/subscribe\/?ref=sub_topHeader"};
+</script>
+<script src='https://indianexpress.com/wp-content/themes/indianexpress/js/evolok/min/ev-em.min.js?ver=23122021.21' id='ev-em-js'></script>
+<script id='recommended-widget-data-ds-js-extra'>
+var rvds_widget_data = {"ajax_url":"https:\/\/indianexpress.com\/wp-admin\/admin-ajax.php","site_url":"https:\/\/indianexpress.com\/","pagetype":""};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/recommended-widget-data-ds.js?ver=2022.09.16.1" data-inline="1" id="recommended-widget-data-ds-js"></script><script id='ev-custom-article-js-extra'>
+var ev_subscribe = {"time":"","premium_paywall":"false"};
+</script>
+<script src='https://indianexpress.com/wp-content/themes/indianexpress/js/evolok/min/ev-custom-article.js?ver=30122022.1' id='ev-custom-article-js'></script>
+<script defer src='https://indianexpress.com/wp-content/themes/indianexpress/js/premium-user/premium-user-content-change.min.js?ver=13012023.5' id='premium-user-content-js-js'></script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/min/ie_breaking_priority_scroll.js?ver=09102020.1" data-inline="1" id="ie-breaking-just-now-box-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/min/common_webwap.js?ver=26072017.1" data-inline="1" id="indianexpress-common-webwap-js"></script><script id='ie-mafl-widget-script-js-extra'>
+var mafl_check = {"mafl_count":"3","box_msg":"Get email alerts for your favourite author. Sign up here","ie_mobile_check":"no","theme_url":"https:\/\/indianexpress.com\/wp-content\/themes\/indianexpress","tracking_c":"other"};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/ie-malf-desktop-widget.js?ver=15032021.0" data-inline="1" id="ie-mafl-widget-script-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/microsites/responsive/js/responsive-infooter.js?ver=2.2" data-inline="1" id="responsive-infooter-js"></script><script id='ie-taboola-script-js-extra'>
+var taboolaExports = {"mode":"alternating-thumbnails-b","placement":"below content","container":"taboola-below-content","target_type":"mix"};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/taboola.js?ver=15102019.1" data-inline="1" id="ie-taboola-script-js"></script><script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/vendor/taboola-footer.js?ver=15102019.1" data-inline="1" id="ie-taboola-footer-script-js"></script><script id='ie-moengage-custom-scripts-js-js-extra'>
+var moengage_settings = {"moen_sdk_app_id":"4514OD0Q31D8DJFBD5SX06TR","debug_log":"0","webpage_type":"Section Listing Page","webpage_title":"Yahoo","serviceworkerjs":"\/serviceworker.js","premium_art_chk":"0","enable_events":"1","payment_page":"0"};
+</script>
+<script type="text/iescript" src="https://indianexpress.com/wp-content/themes/indianexpress/js/ie-moengage-custom-script.js?ver=13092022.1" data-inline="1" id="ie-moengage-custom-scripts-js-js"></script><script type="text/iescript" src="//accounts.google.com/gsi/client?ver=20230118" data-inline="1" id="ie-google-onetap-js-js"></script><script async src='//static.chartbeat.com/js/chartbeat_mab.js?ver=6.0.3' id='ie-google-analytics-js'></script>
+<script id='ie-google-analytics-js-after'>
+function cb_getCookie( c_name ) {
+			    var i,x,y,ARRcookies = document.cookie.split( ";" );
+			    var arr_length       = ARRcookies.length;
+			    for ( i = 0; i < arr_length; i++ ) {
+			        x = ARRcookies[i].substr( 0,ARRcookies[i].indexOf( "=" ) );
+			        y = ARRcookies[i].substr( ARRcookies[i].indexOf( "=" ) + 1 );
+			        x = x.replace( /^\s+|\s+$/g,"" );
+			        if ( x === c_name ) {
+			            return unescape( y );
+			        }
+			    }
+			}
+			(function() {
+			/** CONFIGURATION START **/
+			var _sf_async_config = window._sf_async_config = (window._sf_async_config || {});
+			_sf_async_config.uid = 65545;
+			_sf_async_config.domain = "indianexpress.com";
+			_sf_async_config.flickerControl = false;
+			_sf_async_config.useCanonical = true;
+			_sf_async_config.useCanonicalDomain = true;
+			_sf_async_config.sections = "";
+			_sf_async_config.authors  = "";
+			var cb_user_type          = "anon";
+			if ( typeof cb_getCookie === "function" ) {
+				var get_cb_user_type = cb_getCookie( "ev_user_state" );
+				if ( "subscriber" === get_cb_user_type ) {
+					cb_user_type = "paid";
+				} else if ( "registered" === get_cb_user_type ) {
+					cb_user_type = "lgdin";
+				} else {
+					cb_user_type = "anon";
+				}
+			}
+			var _cbq = window._cbq = (window._cbq || []);
+			_cbq.push(["_acct", cb_user_type ]);
+			/** CONFIGURATION END **/
+			function loadChartbeat() {
+				var e = document.createElement("script");
+				var n = document.getElementsByTagName("script")[0];
+				e.type = "text/javascript";
+				e.async = true;
+				e.src = "//static.chartbeat.com/js/chartbeat.js";
+				n.parentNode.insertBefore(e, n);
+			}
+			loadChartbeat();
+			})();
+</script>
+	<script src='https://stats.wp.com/e-202303.js' defer></script>
+	<script>
+		_stq = window._stq || [];
+		_stq.push([ 'view', {v:'ext',blog:'150893645',post:'0',tz:'5.5',srv:'indianexpress.com',hp:'vip',j:'1:11.7.1'} ]);
+		_stq.push([ 'clickTrackerInit', '150893645', '0' ]);
+	</script>		<script type="text/javascript">(function(){const t = ["mouseover", "keydown", "touchmove", "touchstart", "scroll"]; t.forEach(function (t) { window.addEventListener(t, e, { passive: true }) }); function e() { n(); t.forEach(function (t) { window.removeEventListener(t, e, { passive: true }) }) } function c(t, e, n) { if (typeof n === "undefined") { n = 0 } t[n](function () { n++; if (n === t.length) { e() } else { c(t, e, n) } }) } function u() { var t = document.createEvent("Event"); t.initEvent("DOMContentLoaded", true, true); window.dispatchEvent(t); document.dispatchEvent(t); var e = document.createEvent("Event"); e.initEvent("readystatechange", true, true); window.dispatchEvent(e); document.dispatchEvent(e); var n = document.createEvent("Event"); n.initEvent("load", true, true); window.dispatchEvent(n); document.dispatchEvent(n); var o = document.createEvent("Event"); o.initEvent("show", true, true); window.dispatchEvent(o); document.dispatchEvent(o); var c = window.document.createEvent("UIEvents"); c.initUIEvent("resize", true, true, window, 0); window.dispatchEvent(c); document.dispatchEvent(c); } function rti(t, e) { var n = document.createElement("script"); n.type = "text/javascript"; if (t.src) { n.onload = e; n.onerror = e; n.src = t.src; n.id = t.id } else { n.textContent = t.innerText; n.id = t.id } t.parentNode.removeChild(t); document.body.appendChild(n); if (!t.src) { e() } } function n() { setTimeout(function() { var t = document.querySelectorAll("script"); var n = []; var o;[].forEach.call(t, function(e) { o = e.getAttribute("type"); if (o == "text/iescript") { n.push(function(t) { rti(e, t) }) } });c(n, u) }, 300) }})();</script>
+			<div id='cptup-ready'></div>
+	<div id='user'></div>
+	<div class="widget-dialog" id="offermapmain" style="width:90%"></div>
+			<script>
+			var addthis_config = {'data_track_clickback':false};
+			var addthis_share = {'passthrough': {'facebook': {'app_id':960016430711295, 'redirect_uri': "https:\/\/indianexpress.com\/about\/yahoo\/?ie_share=fb"},'twitter': {
+			'via': 'IndianExpress' } } };
+		</script>
+	</body>
 </html>
